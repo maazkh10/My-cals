@@ -12,7 +12,7 @@ export const StyledEvent = styled.span`
   padding: 2px 10px;
   margin: 0 2px;
   border-radius: 10px;
-  font-size: 25px;
+  font-size: 13px;
   cursor: move;
   text-transform: capitalize;
 `;
@@ -41,7 +41,7 @@ export const SevenColGrid = styled.div`
     }
 
     span.active {
-      background-color: Grey;
+      background-color: pink;
       border-bottom: 2px solid red;
       position: relative;
     }
@@ -55,11 +55,10 @@ export const SevenColGrid = styled.div`
 export const HeadDays = styled.span`
   text-align: center;
   border: 1px solid;
-  font-size: 22px;
-  height: 35px;
+  height: 30px;
   padding: 5px;
-  background: grey;
-  color: dark;
+  background: darkolivegreen;
+  color: white;
 `;
 
 export const DateControls = styled.div`
@@ -70,7 +69,7 @@ export const DateControls = styled.div`
   align-items: center;
 
   ion-icon {
-    font-size: 50px;
+    font-size: 1.6rem;
     cursor: pointer;
   }
 `;

@@ -6,7 +6,7 @@ import { MOCKAPPS } from './calnder/conts';
 function App() {
   return (
     <div className="App">
-     <Calender startingDate = {new Date()} eventsArr= {MOCKAPPS} />
+     <Calender startingDate = {new Date()} eventsArr= "" />
     </div>
   );
 }
