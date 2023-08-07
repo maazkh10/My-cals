@@ -1,4 +1,4 @@
-export const DAYS = ["Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun"];
+export const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturaday", "Sunday"];
 
 export const MOCKAPPS = [
 ];
